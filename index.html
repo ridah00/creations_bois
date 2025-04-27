@@ -65,9 +65,10 @@
       <section id="contact" class="section col-md-10 mb-4">
         <h2>Contact</h2>
         <p class="fs-4">Vous pouvez nous contacter pour commander un produit ou en discuter d'un personnalisé.</p>
-        <form name="contact" method="POST" data-netlify="true" action="/merci"
+        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/merci"
           class="row m-0 justify-content-center gap-3">
           <input class="col-md-10" type="text" name="name" placeholder="Votre nom" required><br>
+          <input type="hidden" name="form-name" value="contact" />
           <p class="d-none">
             <label>Ne pas remplir ce champ : <input name="bot-field" /></label>
           </p>
