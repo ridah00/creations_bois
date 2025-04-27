@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Créations Bois Recyclé</title>
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"> -->
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet"> -->
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1 id="titre-page"></h1>
+    <nav class="row m-0 justify-content-center">
+      <a class="col-md-2" href="#accueil">Accueil</a>
+      <a class="col-md-2" href="#apropos">À propos</a>
+      <a class="col-md-2" href="#creations">Nos créations</a>
+      <a class="col-md-2" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="row m-0 justify-content-center">
+      <section id="accueil" class="section col-md-10">
+        <div id="myCarousel" class="carousel slide pt-3" data-bs-ride="carousel" data-bs-pause="false">
+          <div class="carousel-inner">
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <h2>Bienvenue !</h2>
+        <p id="paragraphe1" class="fs-4">
+
+        </p>
+      </section>
+
+      <section id="apropos" class="section col-md-10">
+        <img src="." class="img-fluid" alt="">
+        <h2>À propos</h2>
+        <p id="paragraphe2" class="fs-4">
+
+        </p>
+      </section>
+
+      <section id="creations" class="section col-md-10">
+        <h2>Nos créations</h2>
+        <div class="galerie">
+
+
+        </div>
+      </section>
+
+      <section id="contact" class="section col-md-10 mb-4">
+        <h2>Contact</h2>
+        <p class="fs-4">Vous pouvez nous contacter pour commander un produit ou en discuter d'un personnalisé.</p>
+        <form name="contact" method="POST" data-netlify="true" action="/merci"
+          class="row m-0 justify-content-center gap-3">
+          <input class="col-md-10" type="text" name="name" placeholder="Votre nom" required><br>
+          <p class="d-none">
+            <label>Ne pas remplir ce champ : <input name="bot-field" /></label>
+          </p>
+          <input class="col-md-10" type="email" name="email" placeholder="Votre email" required><br>
+          <textarea class="col-md-10" name="message" placeholder="Votre message" required></textarea><br>
+          <button class="col-2" type="submit">Envoyer</button>
+        </form>
+      </section>
+    </div>
+    <a href="#top" class="btn haut"><i class="fa-solid fa-arrow-up"></i></a>
+  </main>
+
+  <footer>
+    <div class="row m-0 justify-content-center fs-5">
+      <p class="col-md"><a href="" class="text-dark"><i class="fa-brands fa-square-facebook"></i> Facebook</a></p>
+      <p class="col-md"><a href="" class="text-dark"><i class="fa-brands fa-square-instagram"></i>Instagram</a> </p>
+      <p class="col-md"><i class="fa-solid fa-envelope"></i> encadrants@conservatoire-maritime.com</p>
+      <p class="col-md"><i class="fa-solid fa-square-phone"></i> Fixe : <a href="tel:+33235244005"
+          class="text-decoration-none">02 35 24 40 05</a></p>
+
+    </div>
+    <div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5184.165574484608!2d0.12328257698917579!3d49.482943156551904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e02efc5df30379%3A0xfbc5f533f6848576!2sConservatoire%20Maritime%20du%20Havre!5e0!3m2!1sfr!2sfr!4v1745665232442!5m2!1sfr!2sfr"
+        width="1000" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <p>&copy; 2025 - Mon Atelier Bois</p>
+  </footer>
+
+
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script type="module" src="./assets/js/fetchCreations.js"></script>
+  <script src="./assets/js/style.js"></script>
+
+
+
+
+
+  <script src="https://kit.fontawesome.com/f9a12e2310.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

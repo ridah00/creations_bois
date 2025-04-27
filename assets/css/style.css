@@ -1,0 +1,95 @@
+body {
+  background-color: #f5f3f0;
+  color: #333;
+  /* font-family: 'Josefin Sans', sans-serif; */
+  /* font-family: 'Josefin Sans', sans-serif; */
+  /* font-family: 'Quicksand', sans-serif; */
+  font-family: 'Merriweather', serif;
+}
+h1, h2 {
+  font-family: 'Amatic SC', cursive;
+  font-weight:bold;
+  font-size: 3.5rem;
+}
+
+
+header {
+  background-color: #7c5e3c;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  text-decoration: overline underline;
+}
+
+.section {
+  text-align: center;
+}
+.carousel-item img{
+  width: 100%;
+  height: 30rem;
+}
+
+.galerie {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.produit img {
+  width: 100%;
+  height: 20rem;
+  border-radius: 1rem;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #7c5e3c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.haut {
+  background-color: #7c5e3c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 4rem;
+  right: 2rem;
+}
+
+.haut:hover {
+  background-color: #5e432d;
+  color: white;
+}
+
+form button:hover {
+  background-color: #5e432d;
+}
+
+footer {
+  background-color: #ddd0c8;
+  text-align: center;
+  padding: 15px;
+}
